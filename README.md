@@ -1,24 +1,46 @@
 # bookstore_manager_api
-Study project with java + spring boot
+Projeto de estudo Java + Spring Boot
 
-# Getting Started
+<h2>Bookstore API Manager</h2>
 
-### Reference Documentation
-For further reference, please consider the following sections:
+O objetivo do projeto Bookstore API Manager é disponibilizar uma API para cadastro dos livros de uma livraria através de uma API REST.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.13/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.7.13/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.7.13/reference/htmlsingle/#web)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.7.13/reference/htmlsingle/#using.devtools)
-* [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.7.13/reference/htmlsingle/#actuator)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.7.13/reference/htmlsingle/#data.sql.jpa-and-spring-data)
+O projeto foi desenvolvido como base de criação do curso intrdutório sobre Spring Boot, publicado na Udemy em abril de 2020.
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Durante o projeto, são abordados os seguintes tópicos:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* Setup inicial de projeto com o Spring Boot Initialzr.
+* Criação de modelo de dados para o mapeamento de entidades em bancos de dados.
+* Desenvolvimento de operações de gerenciamento de livros (Cadastro, leitura por ID e remoção de livros).
+* Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
+* Desenvolvimento de testes unitários para validação das funcionalidades.
+* Implantação do sistema na nuvem através do Heroku.
+
+Para executar o projeto no terminal, digite o seguinte comando:
+
+```shell script
+mvn spring-boot:run 
+```
+
+Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+
+```
+http://localhost:8080/api/v1/books
+```
+
+
+Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+
+São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+
+* Java 14 ou versões superiores.
+* Maven 3.6.3 ou versões superiores.
+* Intellj IDEA Community Edition ou sua IDE favorita.
+* Controle de versão GIT instalado na sua máquina.
+* Conta no GitHub para o armazenamento do seu projeto na nuvem.
+* Postman ou similar para execução de testes de integração para a validação de ponta a ponta da API.
+
+
+
+
+
